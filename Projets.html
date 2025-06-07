@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projets</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="JavaScript.js" defer></script>
+    
+</head>
+<body>
+    <div class="ham-menu" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    
+    <nav id="menu">
+        <ul>
+            <li><a href="Accueil.html" class="menu">◯ Accueil</a></li>
+            <li><a href="CV.html" class="menu">◯ Mon CV</a></li>
+            <li><a href="Projets.html" class="menu">◯ Mes Projets</a></li>
+            <li><a href="Contacts.html" class="menu">◯ Mes Contacts</a></li>
+        </ul>
+    </nav>
+<div id="projects" class="section">
+        <h2 class="section-title">Mes Projets</h2>
+        <div class="projects-grid">
+            <div class="project-card" onclick="openModal('project1')">
+                <div class="project-header">
+                    <div class="project-icon">🌐</div>
+                    <h3 class="project-title">Site Internet Econocom</h3>
+                </div>
+                <p class="project-description">
+                    Développement d'un site web professionnel pour l'entreprise Econocom dans le cadre d'un projet académique.
+                </p>
+                <div class="project-tech">
+                    <span class="tech-tag">HTML</span>
+                    <span class="tech-tag">CSS</span>
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">Responsive</span>
+                </div>
+                <p style="color: var(--accent-color); font-weight: 500;">Cliquer pour plus de détails →</p>
+            </div>
+
+            <div class="project-card" onclick="openModal('project2')">
+                <div class="project-header">
+                    <div class="project-icon">🖥️</div>
+                    <h3 class="project-title">Serveur Debian LAMP</h3>
+                </div>
+                <p class="project-description">
+                    Installation et configuration d'un serveur Debian avec Apache, PostgreSQL et PHP.
+                </p>
+                <div class="project-tech">
+                    <span class="tech-tag">Debian</span>
+                    <span class="tech-tag">Apache</span>
+                    <span class="tech-tag">PostgreSQL</span>
+                    <span class="tech-tag">PHP</span>
+                </div>
+                <p style="color: var(--accent-color); font-weight: 500;">Cliquer pour plus de détails →</p>
+            </div>
+
+            <div class="project-card" onclick="openModal('project3')">
+                <div class="project-header">
+                    <div class="project-icon">📊</div>
+                    <h3 class="project-title">Base de Données Accidents</h3>
+                </div>
+                <p class="project-description">
+                    Conception et exploitation d'une base de données sur les accidents de la route en France.
+                </p>
+                <div class="project-tech">
+                    <span class="tech-tag">SQL</span>
+                    <span class="tech-tag">PostgreSQL</span>
+                    <span class="tech-tag">Analyse</span>
+                    <span class="tech-tag">Requêtes</span>
+                </div>
+                <p style="color: var(--accent-color); font-weight: 500;">Cliquer pour plus de détails →</p>
+            </div>
+
+            <div class="project-card" onclick="openModal('project4')">
+                <div class="project-header">
+                    <div class="project-icon">🎮</div>
+                    <h3 class="project-title">Jeu "La Bataille de Faërun"</h3>
+                </div>
+                <p class="project-description">
+                    Développement d'un jeu de stratégie en Java avec interface graphique et système de combat.
+                </p>
+                <div class="project-tech">
+                    <span class="tech-tag">Java</span>
+                    <span class="tech-tag">Swing</span>
+                    <span class="tech-tag">OOP</span>
+                    <span class="tech-tag">Game Dev</span>
+                </div>
+                <p style="color: var(--accent-color); font-weight: 500;">Cliquer pour plus de détails →</p>
+            </div>
+        </div>
+    </div>
+
+     <div id="project1" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('project1')">&times;</button>
+            <div class="project-detail">
+                <h2>🌐 Site Internet Econocom</h2>
+                
+                <h3>Description du projet</h3>
+                <p>Développement d'un site web professionnel pour l'entreprise Econocom dans le cadre d'une Situation d'Apprentissage et d'Évaluation (SAE). Ce projet avait pour objectif de créer une vitrine digitale moderne et responsive pour présenter les services de l'entreprise.</p>
+                
+                <h3>Compétences développées</h3>
+                <ul>
+                    <li>Développement front-end avec HTML, CSS et JavaScript</li>
+                    <li>Design responsive </li>
+                </ul>
+                
+                <h3>Objectifs du projet</h3>
+                <ul>
+                    <li>Créer une interface utilisateur moderne et intuitive</li>
+                    <li>Assurer une navigation fluide et responsive</li>
+                    <li>Respecter les principes de l'entreprise</li>
+                </ul>
+                
+                <h3>Travail en équipe</h3>
+                <p>Projet réalisé en groupe de 4 avec répartition des tâches : conception graphique (maquette) et développement. Utilisation de Git pour la gestion de version et collaboration ainsi que de Discord pour la communication au sein du groupe.</p>
+                
+                <h3>Mon rôle individuel</h3>
+                <ul>
+                    <li>Réaliser la conception graphique du wireframe</li>
+                    <li>Réalisation d'une page web en html/css.</li>
+                </ul>
+                
+                <h3>Technologies et outils utilisés</h3>
+                <ul>
+                    <li><strong>Front :</strong> HTML, CSS, JavaScript</li>
+                    <li><strong>Outils :</strong> VS Code, Git, Discord et Whimsical</li>
+                </ul>
+                
+                <h3>Acquis techniques</h3>
+                <ul>
+                    <li>Maîtrise des flexbox et CSS Grid pour les layouts</li>
+                    <li>Collaboration en équipe</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="project2" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('project2')">&times;</button>
+            <div class="project-detail">
+                <h2>🖥️ Serveur Debian LAMP</h2>
+                
+                <h3>Description du projet</h3>
+                <p>Dans le cadre du module S2.03 du BUT Informatique (1re année, semestre 2) à l'IUT2 de Grenoble, un projet individuel m’a été confié : rédiger un guide d’installation en anglais d’un serveur Debian 12 configuré avec Apache, PostgreSQL et PHP (pile LAPP), accessible depuis la machine hôte. Ce guide devait permettre à tout étudiant ayant suivi le module R1.04 de reproduire l’installation à l’identique, sur une machine virtuelle Qemu/KVM.
+
+</p>
+                
+                <h3>Compétences développées</h3>
+                <ul>
+                    <li>Administration système sous Linux (Debian 12) : installation, gestion de services, manipulation du système de fichiers.</li>
+                    <li>Configuration de services web : Apache 2.4 avec virtual hosts.</li>
+                    <li>Gestion et sécurisation de bases de données PostgreSQL 15.</li>
+                    <li>Configuration et test de PHP 8.2.</li>
+                    <li>Rédaction technique en anglais</li>
+                </ul>
+                
+                <h3>Objectifs du projet</h3>
+                <ul>
+                    <li>Installer un serveur Debian 12 sans interface graphique, avec comme utilisateur principal mon login UGA.</li>
+                    <li>Configurer un environnement de développement web complet : Apache, PostgreSQL, PHP.</li>
+                    <li>Rédiger un guide technique structuré et illustré en anglais</li>
+                    <li>Assurer la connectivité entre la machine virtuelle et la machine hôte</li>
+                    <li>Inclure des captures d’écran à chaque étape critique, pour valider les actions réalisées et faciliter la reproductibilité.</li>
+                </ul>
+                
+                <h3>Travail en équipe</h3>
+                <p>Projet réalisé individuellement avec présentation et peer-review en groupe. Échanges techniques avec les autres étudiants pour résoudre les problèmes rencontrés.</p>
+                
+                <h3>Mon rôle individuel</h3>
+                <ul>
+                    <li>Installation complète du système Debian 12</li>
+                    <li>Configuration d'Apache avec virtual hosts</li>
+                    <li>Installation et sécurisation de PostgreSQL</li>
+                    <li>Configuration PHP et tests de connectivité</li>
+                    <li>Rédaction du guide d'installation en anglais</li>
+                </ul>
+                
+                <h3>Technologies et outils utilisés</h3>
+                <ul>
+                    <li><strong>Système :</strong> Debian 12, Apache 2.4</li>
+                    <li><strong>Base de données :</strong> PostgreSQL 15</li>
+                    <li><strong>Langage :</strong> PHP 8.2</li>
+                    <li><strong>Outils :</strong> SSH, nano, systemctl, Quemu</li>
+                </ul>
+                
+                <h3>Acquis techniques</h3>
+                <ul>
+                    <li>Maîtrise des commandes Linux et de l'administration système</li>
+                    <li>Configuration de services réseau et gestion des ports</li>
+                    <li>Sécurisation des accès et gestion des permissions</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="project3" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('project3')">&times;</button>
+            <div class="project-detail">
+                <h2>📊 Base de Données Accidents de la Route</h2>
+                
+                <h3>Description du projet</h3>
+                <p>Conception et exploitation d'une base de données complète sur les accidents de la route en France sur les vingt dernières années. Ce projet visait à informer les usagers et à fournir des analyses statistiques pour une association sensible à l'accès libre aux données.</p>
+                
+                <h3>Compétences développées</h3>
+                <ul>
+                    <li>Manipulation de données massives avec des outils adaptés</li>
+                    <li>Nettoyage, filtrage, et transformation de jeux de données</li>
+                    <li>Analyse statistique et traitement de données</li>
+                    <li>Rédaction d’un document d’analyse clair et professionnel</li>
+                    <li>Gestion de projet : cadrage, contraintes, risques</li>
+                </ul>
+                
+                <h3>Objectifs du projet</h3>
+                <ul>
+                    <li>Explorer, nettoyer et transformer une base de données brute, fournie par l’Observatoire National Interministériel de la Sécurité Routière (ONISR).</li>
+                    <li>Répondre à une problématique ciblée à l’aide d’analyses statistiques et de graphiques.</li>
+                    <li>Produire un document d’analyse structuré, clair et visuellement lisible.</li>
+                    <li>Appliquer des principes de gestion de projet : cadrage, identification des contraintes et des risques.</li>
+                </ul>
+                
+                <h3>Travail en équipe</h3>
+                <p>Projet en équipe de 2 étudiants avec répartition des rôles : modélisation, implémentation SQL, et interface de consultation.</p>
+                
+                <h3>Technologies et outils utilisés</h3>
+                <ul>
+                    <li><strong>Base de données :</strong> PostgreSQL</li>
+                    <li><strong>Analyse et visualisation :</strong> R</li>
+                    <li><strong>Communication  :</strong> Discord</li>
+                    <li><strong>Document final :</strong> LibreOffice (PDF)</li>
+                </ul>
+                
+                <h3>Acquis techniques</h3>
+                <ul>
+                    <li>Maîtrise des jointures complexes et sous-requêtes</li>
+                    <li>Gestion des contraintes et de l'intégrité référentielle</li>
+                    <li>Analyse de données et reporting SQL</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="project4" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('project4')">&times;</button>
+            <div class="project-detail">
+                <h2>🎮 Jeu "La Bataille de Faërun"</h2>
+                
+                <h3>Description du projet</h3>
+                <p>Développement d'un jeu de stratégie au tour par tour inspiré de l'univers Donjons & Dragons. Le jeu propose un système de combat tactique avec différentes classes de personnages, sorts et équipements dans un environnement graphique interactif.</p>
+                
+                <h3>Compétences développées</h3>
+                <ul>
+                    <li>Programmation orientée objet avancée</li>
+                    <li>Programmation de tests unitaires</li>
+                    <li>Développement et commentaires construit</li>
+                </ul>
+                
+                <h3>Objectifs du projet</h3>
+                <ul>
+                    <li>Créer un jeu jouable</li>
+                    <li>Implémenter un système de combat équilibré</li>
+                </ul>
+                
+                <h3>Travail en équipe</h3>
+                <p>Projet individuel.</p>
+                
+                <h3>Mon rôle individuel</h3>
+                <ul>
+                    <li>Réalisation du jeu complet</li>
+                </ul>
+                
+                <h3>Technologies et outils utilisés</h3>
+                <ul>
+                    <li><strong>Langage :</strong> Java</li>
+                    <li><strong>IDE :</strong> IntelliJ IDEA</li>
+                    <li><strong>Outils :</strong> Gricad</li>
+                </ul>
+                
+                <h3>Acquis techniques</h3>
+                <ul>
+                    <li>Maîtrise des concepts avancés de la POO (héritage, polymorphisme)</li>
+                    <li>Tests unitaires et qualité logicielle</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+<footer>
+    <div class="footer-content">
+        <p>&copy; 2025 MELOUX Antoine • Portfolio d'étudiant</p>
+        
+    </div>
+</footer>
+</html>

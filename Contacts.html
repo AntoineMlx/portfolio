@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="JavaScript.js" defer></script>
+    
+</head>
+<body>
+    <div class="ham-menu" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    
+    <nav id="menu">
+        <ul>
+            <li><a href="Accueil.html" class="menu">◯ Accueil</a></li>
+            <li><a href="CV.html" class="menu">◯ Mon CV</a></li>
+            <li><a href="Projets.html" class="menu">◯ Mes Projets</a></li>
+            <li><a href="Contacts.html" class="menu">◯ Mes Contacts</a></li>
+        </ul>
+    </nav>
+<div class="page-contacts">
+    <div class="page-content">
+        <div class="container">
+            <h1 class="page-title">Mes Contacts</h1>
+            
+            <div class="contact-grid">
+                <div class="contact-item" onclick="window.open('mailto:antoine.meloux11@gmail.com')">
+                    <div class="contact-icon">📧</div>
+                    <h3>Email</h3>
+                    <p>antoine.meloux11@gmail.com</p>
+                </div>
+                
+                <div class="contact-item" onclick="window.open('tel:+33766279030')">
+                    <div class="contact-icon">📱</div>
+                    <h3>Téléphone</h3>
+                    <p>+33 7 66 27 90 30</p>
+                </div>
+                <div class="contactez-moi">
+                <h1>Contactez-moi</h1>
+                <form action="https://formsubmit.co/antoine.meloux11@gmail.com@email.com" method="POST">
+                
+                    <label for="name">Nom :</label>
+                    <input type="text" id="name" name="name" required>
+                
+                    <label for="email">Adresse email :</label>
+                    <input type="email" id="email" name="email" required>
+                
+                    <label for="message">Message :</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                
+                    <input type="hidden" name="_captcha" value="false">
+                    
+                    <input type="hidden" name="_next" value="https://ton-site.com/merci.html">
+                
+                    <button type="submit">Envoyer</button>
+                </form>
+            </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+</body>
+<footer>
+    <div class="footer-content">
+        <p>&copy; 2025 MELOUX Antoine • Portfolio d'étudiant</p>
+        
+    </div>
+</footer>
+</html>
